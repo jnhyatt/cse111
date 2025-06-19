@@ -1,0 +1,60 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+Transmission Simulator
+
+2. What real-world problem will your program address or help to solve?
+
+The program will compute rotation speed of different shafts within a constant-mesh transmission. For
+exapmle, an automatic transmission consists of two or three sets of interconnected planetary gears.
+The user could describe the system and observe relative rotation speeds for different shafts.
+
+3. What will you learn from developing this program?
+
+- I'll learn some more advanced tkinter
+- I'll refresh my linear algebra
+- I'll learn how to create a system of equations from a set of constraints
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+- pytest
+- tkinter
+- numpy
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+- matrix_from_constraints
+- shaft_speeds
+- constraint_vector
+
+6. List the names of the test functions you will write.
+
+- test_constraint_matrix
+- test_shaft_speeds
+- test_mesh_constraint_vector
+- test_chain_constraint_vector
+- test_planetary_constraint_vector
